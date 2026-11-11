@@ -1,0 +1,17 @@
+# Ambiente Virtual
+.venv/
+venv/
+env/
+
+# Cache do Python e Pytest
+__pycache__/
+.pytest_cache/
+.coverage
+
+# Relatórios de Teste (vamos gerar dinamicamente no CI/CD)
+report.html
+assets/
+
+# Dados gerados pelo Pandas (evitar subir lixo no repositório)
+data/*.csv
+data/*.xlsx
